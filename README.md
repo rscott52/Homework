@@ -1,29 +1,16 @@
-# Savvy Coders Project Boilerplate Starter Kit
+Write your name in a large font
+Write a subheading about you in a smaller font
+Create a list that explains your goals for this course
 
-## Overview
+# Ryan Scott
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+## I am excited to begin my coding journey! I have always been interested in coding/programming, and I know with the help of Saavy I will be able to excel at it. In my personal life, I enjoy spending time with my family and I like playing games. Music plays a big part of my life. Basketball is my favorite sport, and my favorite snack is popcorn.
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
-
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
-
-## Get Started
-
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
-
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
-
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
-
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
-
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
-
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
-
-**Note:** This is a template repository, no need to 'fork it.
+### Goals for The Course
+- Learn HTML
+- Learn CSS
+- Learn JavaScript
+- Become Proficient in Agile
+- Become Confident in My Coding Abilities
+- Developing the Skills Needed for Obtaining A Web Development Job
+- Join the IT Industry
