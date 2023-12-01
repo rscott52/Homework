@@ -1,0 +1,24 @@
+* {
+  background: darkslategray;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#main {
+  border: 2px solid black;
+}
+
+.link {
+  color: orange;
+  display: flex;
+justify-content: center;
+}
+
+.link:hover {
+  color:antiquewhite;
+}
+
+#footer {
+  display:flex;
+  justify-content: center;
+}
