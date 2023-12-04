@@ -45,3 +45,8 @@ ul > li {
 list-style-type: none;
 color: antiquewhite;
 }
+
+#only-image {
+  width: 400px;
+  height: 400px;
+}
