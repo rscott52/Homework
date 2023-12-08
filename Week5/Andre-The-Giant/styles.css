@@ -20,13 +20,13 @@ div {
   margin: 10px;
 }
 
-#introPic {
+/* #introPic {
   float: left;
 }
 
 #bio {
   float: right;
-}
+} */
 #bio > li {
   padding: 2px;
 }
@@ -37,7 +37,7 @@ div {
 
 @media (max-width: 375px) {
   * {
-  width: 97%;
+  width: 95%;
 
   }
   #top {
