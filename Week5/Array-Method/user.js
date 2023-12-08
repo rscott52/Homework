@@ -258,7 +258,10 @@ const data = [
 
 const phoneNumbers = [];
 
-data.forEach(user => phoneNumbers.push(user.phone));
+data.map(user => {
+  phoneNumbers.push(user.phone);
+  return data;
+});
 
 console.log(phoneNumbers);
 
@@ -266,11 +269,12 @@ console.log(phoneNumbers);
 
 const pairs = [];
 
-data.forEach(user => {
+data.map(user => {
   let website = user.website;
   let email = user.email;
 
   pairs.push([website, email]);
+  return data;
 });
 
 console.log(pairs);

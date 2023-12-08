@@ -371,11 +371,12 @@ console.log(userFive);
 // then, create a list of title and body pairs
 const pairs = [];
 
-userFive.forEach(user => {
+userFive.map(user => {
   let title = user.title;
   let body = user.body;
 
   pairs.push([title, body]);
+  return userFive;
 });
 
 console.log(pairs);
