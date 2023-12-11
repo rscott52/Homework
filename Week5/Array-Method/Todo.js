@@ -318,15 +318,22 @@ const userThreeToDo = userThree.filter(user => user.title);
 console.log(userThreeToDo);
 
 // then find the number of user 3's incomplete tasks
-function incompleteTasks() {
+function incompleteTasks(userThree) {
   let count = 0;
-  for (let i = 0; i <= userThreeToDo.length; i++) {
-    if (userThreeToDo.completed === false) {
+  for (let i = 0; i <= userThree.length; i++) {
+    if (userThree.completed === true) {
       count++;
-      console.log(count);
+    } else {
+      count++;
     }
   }
   return count;
 }
 
-console.log(incompleteTasks);
+console.log(incompleteTasks(userThree));
+
+// console.log(incompleteTasks);
+
+// const incomplete = userThree.filter(user => user.completed === false);
+
+// console.log(incomplete);
