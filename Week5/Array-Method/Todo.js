@@ -313,27 +313,30 @@ const data = [
 // create a list of user 3's to-dos
 const userThree = data.filter(user => user.userId === 3);
 
+console.log(userThree);
+
 const userThreeToDo = userThree.filter(user => user.title);
 
 console.log(userThreeToDo);
 
 // then find the number of user 3's incomplete tasks
-function incompleteTasks(userThree) {
-  let count = 0;
-  for (let i = 0; i <= userThree.length; i++) {
-    if (userThree.completed === true) {
-      count++;
-    } else {
-      count++;
-    }
-  }
-  return count;
-}
 
-console.log(incompleteTasks(userThree));
+// function incompleteTasks(userThree) {
+//   let count = 0;
+//   for (let i = 0; i <= userThree.length; i++) {
+//     if (userThree.completed === true) {
+//       count++;
+//     } else {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// console.log(incompleteTasks(userThree));
 
 // console.log(incompleteTasks);
 
-// const incomplete = userThree.filter(user => user.completed === false);
+const incomplete = userThree.filter(user => user.completed === false);
 
-// console.log(incomplete);
+console.log(incomplete.length);
